@@ -9,7 +9,6 @@ $( document ).ready(function() {
     const $api_key = "sizningtokeningiz";
     const $api_server = "http://kosonsoymarket.uz/api/"+$api_key+"/";
     const $sitename = "http://kosonsoymarket.uz";
-    //openDatabase("speckyboy","1.0","Моя первая БД",5 * 1024 * 1024);
     let Router = {
 
         routes: {
