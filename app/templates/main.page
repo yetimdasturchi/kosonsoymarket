@@ -1,0 +1,365 @@
+<div class="sidebar">
+    <div class="text-center">
+    	<div class="figure-menu shadow">
+    		<figure><img src="vendor/img/logo.png" alt=""></figure>
+    	</div>
+    	<h5 class="mb-1 ">Kosonsoy Market</h5>
+    	<p class="text-mute small" lang="apptitle"></p>
+    </div>
+    <br>
+    <div class="row mx-0">
+        <div class="col">
+            <div class="card mb-3 border-0 bg-warning shadow-sm bg-template-light">
+                <div class="card-body">
+                    <a href="/postad" style="text-decoration: none;">
+                    	<div class="row">
+                        	<div class="col vertical-center">
+                            	<p class="text-white small mb-0" style="font-size: 1rem;" lang="postad"></p>
+                        	</div>
+                        	<div class="col-auto">
+                            	<button class="btn btn-default button-rounded-36 shadow"><i class="material-icons">add</i></button>
+                        	</div>
+                    	</div>
+                    </a>
+                </div>
+            </div>
+            <h5 class="subtitle text-uppercase"><span lang="menu"></span></h5>
+            <div class="list-group main-menu">
+                <a href="/main" class="list-group-item list-group-item-action active" lang="ads"></a>
+                <a href="/news" class="list-group-item list-group-item-action" lang="news"></a>
+                <a href="/bookmarks" class="list-group-item list-group-item-action" lang="bookmarks"></a>
+                <a href="/aboutus" class="list-group-item list-group-item-action" lang="aboutus"></a>
+                <a href="/settings" class="list-group-item list-group-item-action" lang="settings"></a>
+                <a href="/aboutapp" class="list-group-item list-group-item-action" lang="aboutapp"></a>
+                <p class="text-center small text-white mt-4" lang="copyright"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="header">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <button class="btn  btn-link text-dark menu-btn"><img src="vendor/img/menu.png" alt=""><span class="new-notification"></span></button>
+            </div>
+            <div class="col text-center"><input type="search" class="form-control form-control-lg search my-3" placeholder="" lang="search"></div>
+            <div class="col-auto">
+              	<button class="btn filter-btn btn-link text-dark"><i class="material-icons">filter_list</i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      	<h6 class="subtitle specialads-header" lang="specialads" style="display: none;"></h6>
+        <div class="row mb-2">
+          	<div class="swiper-container specialads-temp" style="display: none;">
+           		<div class="swiper-wrapper">
+           			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    					<div class="card shadow-sm border-0 mb-4 grid">
+        					<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"></figure>
+        					<div class="card-body ph-item ph-row" style="">
+        						<div class="ph-col-12 empty"></div>
+        						<div class="ph-col-12" style="margin-top: -8px;"></div>
+        						<div class="ph-col-8" style="margin-top: 8px;"></div>
+        						<div class="ph-col-4 empty"></div>
+        						<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           						<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        					</div>
+    					</div>
+					</div>
+					<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    					<div class="card shadow-sm border-0 mb-4 grid">
+        					<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"></figure>
+        					<div class="card-body ph-item ph-row" style="">
+        						<div class="ph-col-12 empty"></div>
+        						<div class="ph-col-12" style="margin-top: -8px;"></div>
+        						<div class="ph-col-8" style="margin-top: 8px;"></div>
+        						<div class="ph-col-4 empty"></div>
+        						<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           						<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        					</div>
+    					</div>
+					</div>
+                </div>
+                <div class="swiper-pagination" style="margin-bottom: -10px;"></div>
+            </div>
+          	<div class="swiper-container specialads-data" style="display: none;">
+           		<div class="swiper-wrapper specialads-data-items">
+           			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    					<div class="card shadow-sm border-0 mb-4 grid">
+        					<figure class="product-image grid-image" style="background-image: url(http://kosonsoymarket.uz/uploads/ads/29599566_2_1000x700_3-honali-uy-sotiladi-fotografii_rev025.jpg);"></figure>
+        					<button class="btn btn-sm grid-btn btn-link p-0"><i class="material-icons md-18">favorite_outline</i></button>
+        					<div class="badge badge-success text-white grid-badge float-right mt-1">22 Okt 18:39</div>
+        					<div class="card-body">
+           						<a href="product-details.html" class="text-dark mb-1 mt-2 h6 d-block three-dot">4х комнатные квартиры</a>
+           						<p class="text-secondary small mb-2 three-dot">Ko‘chmas mulk</p>
+           						<h6 class="text-template font-weight-normal mb-0">&nbsp;</h6>
+           						<p class="text-secondary small text-mute mb-0 three-dot"><i class="icon-tag icons grid-price"></i> 2 200<sup>.000</sup></p>
+           						<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right"><i class="material-icons md-18">arrow_forward</i></button>
+        					</div>
+    					</div>
+					</div>
+            			<!--End of Test item-->
+                </div>
+                <div class="swiper-pagination" style="margin-bottom: -10px;"></div>
+            </div>
+        </div>
+        <hr class="specialads-header" style="display: none;">
+
+        <h6 class="subtitle" lang="simpleads"></h6>
+        <div class="row simpleads-data" style="display: none;">
+        	
+        </div>
+        <div class="row simpleads-temp-list" style="display: none;">
+        	<div class="col-12 col-lg-6">
+                <div class="card shadow-sm border-0 mb-4 list-tem">
+                    <div class="card-body"><span class="badge  d-inline-block ml-2"></span><figure class="product-image ph-item ph-picture" style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;"></figure>
+                        <div class="row">
+                            <div class="col ph-item ph-row" style="border-radius: 20px;">
+                                <div class="ph-col-12 empty"></div>
+                                <div class="ph-col-10" style="margin-top: -10px;"></div>
+                                <div class="ph-col-2 empty"></div>
+                                <div class="ph-col-6 mb-2" style="margin-top: -5px;"></div>
+                                <div class="ph-col-6 empty"></div>
+                                <div class="ph-col-4 small mb-0" style="margin-top: 30px;margin-bottom: -7px;"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card shadow-sm border-0 mb-4 list-tem">
+                    <div class="card-body"><span class="badge  d-inline-block ml-2"></span><figure class="product-image ph-item ph-picture" style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;"></figure>
+                        <div class="row">
+                            <div class="col ph-item ph-row" style="border-radius: 20px;">
+                                <div class="ph-col-12 empty"></div>
+                                <div class="ph-col-10" style="margin-top: -10px;"></div>
+                                <div class="ph-col-2 empty"></div>
+                                <div class="ph-col-6 mb-2" style="margin-top: -5px;"></div>
+                                <div class="ph-col-6 empty"></div>
+                                <div class="ph-col-4 small mb-0" style="margin-top: 30px;margin-bottom: -7px;"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card shadow-sm border-0 mb-4 list-tem">
+                    <div class="card-body"><span class="badge  d-inline-block ml-2"></span><figure class="product-image ph-item ph-picture" style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;"></figure>
+                        <div class="row">
+                            <div class="col ph-item ph-row" style="border-radius: 20px;">
+                                <div class="ph-col-12 empty"></div>
+                                <div class="ph-col-10" style="margin-top: -10px;"></div>
+                                <div class="ph-col-2 empty"></div>
+                                <div class="ph-col-6 mb-2" style="margin-top: -5px;"></div>
+                                <div class="ph-col-6 empty"></div>
+                                <div class="ph-col-4 small mb-0" style="margin-top: 30px;margin-bottom: -7px;"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card shadow-sm border-0 mb-4 list-tem">
+                    <div class="card-body"><span class="badge  d-inline-block ml-2"></span><figure class="product-image ph-item ph-picture" style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;"></figure>
+                        <div class="row">
+                            <div class="col ph-item ph-row" style="border-radius: 20px;">
+                                <div class="ph-col-12 empty"></div>
+                                <div class="ph-col-10" style="margin-top: -10px;"></div>
+                                <div class="ph-col-2 empty"></div>
+                                <div class="ph-col-6 mb-2" style="margin-top: -5px;"></div>
+                                <div class="ph-col-6 empty"></div>
+                                <div class="ph-col-4 small mb-0" style="margin-top: 30px;margin-bottom: -7px;"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row simpleads-temp-grid" style="display: none;">
+        	<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+			<div class="swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    			<div class="card shadow-sm border-0 mb-4 grid">
+        			<figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
+        			</figure>
+        			<div class="card-body ph-item ph-row" style="">
+        				<div class="ph-col-12 empty"></div>
+        				<div class="ph-col-12" style="margin-top: -8px;"></div>
+        				<div class="ph-col-8" style="margin-top: 8px;"></div>
+        				<div class="ph-col-4 empty"></div>
+        				<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           				<button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        			</div>
+    			</div>
+			</div>
+        </div>
+        <div class="row loader-indicator" style="display: none;">
+            <div class="col-12 text-center">
+            	<div class="btn btn-default btn-rounded mb-3">
+                	<div class="btn-loader"><div></div><div></div><div></div><div></div></div>
+                    <h6 class="d-inline-block text-left mx-2 mb-0 text-normal"><lang lang="loading_content"></lang><br>
+                    <small class="text-mute"><lang lang="please_wait"></lang></small></h6>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 error-content" style="display: none;">
+            <div class="col-12 text-center">
+            	<div class="btn btn-danger mb-3" style="border-radius: 15px;">
+                	<i class="icon-exclamation icons"></i>
+                    <h6 class="d-inline-block text-left mx-0 mb-0 text-normal" lang="error"></h6>
+                    <br><small class="text-mute" lang="notfound"></small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="no-gutters">
+            <div class="col-auto mx-auto">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-auto">
+                        <a href="/main" class="btn btn-link-default active">
+                            <i class="material-icons">store_mall_directory</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/news" class="btn btn-link-default">
+                            <i class="icon-grid"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/postad" class="btn btn-default shadow centerbutton">
+                            <i class="icon-note"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/bookmarks" class="btn btn-link-default">
+                            <i class="material-icons md-18">favorite_outline</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/settings" class="btn btn-link-default">
+                            <i class="icon-settings icons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="filter">
+        <button class="btn btn-default filter-btn shadow"><i class="material-icons">filter_list</i></button>
+        <div class="container filters-container">
+            <div class="subtitle h6">
+                <div class="d-inline-block">
+                    <lang lang="filter"></lang><br>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label class="form-control-lable" lang="filter_selectprice">
+                </label>
+                <br>
+                <div id="rangeslider" class="mt-2"></div>
+            </div>
+            <div class="form-group float-label pt-0">
+                <div class="row">
+                    <div class="col">
+                        <input type="number" min="0" max="10000000" value="0" step="1000" id="input-select" class="form-control min">
+                    </div>
+                    <div class="col-auto pt-2"> <i class="material-icons">arrow_forward</i> </div>
+                    <div class="col">
+                        <input type="number" min="0" max="10000000" value="10000000" step="1000" id="input-number" class="form-control max">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group float-label active">
+                <select class="form-control chosen categories">
+                    <optgroup label="Citrus">
+                        <option value="0">Bo‘limlar</option>
+                    </optgroup>
+                </select>
+                <label class="form-control-label" lang="filter_category"></label>
+            </div>
+            <div class="filters-container-data">
+            	
+            </div>
+            <br>
+            <button class="btn btn-warning btn-rounded btn-block filter-button" lang="filter_button"></button>
+            <br>
+
+        </div>
+    </div>
+</div>

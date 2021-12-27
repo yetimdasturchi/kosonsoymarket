@@ -1,0 +1,13 @@
+{tags}
+📺 Reklama Center
+
+<b>💡 {title}</b>
+<i>{filters=◾}</i>
+💰 Narxi: {price}
+☎️ Tel:   {onwer_phone}
+🔍 Manzil: {address}
+
+📌 Bo`lim: {category}
+🛒 Batafsil:  {url}
+
+⭐️ {channel_username} e'lonlar doskasi

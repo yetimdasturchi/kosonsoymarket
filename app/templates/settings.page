@@ -1,0 +1,260 @@
+<div class="sidebar">
+    <div class="text-center">
+    	<div class="figure-menu shadow">
+    		<figure><img src="vendor/img/logo.png" alt=""></figure>
+    	</div>
+    	<h5 class="mb-1 ">Kosonsoy Market</h5>
+    	<p class="text-mute small" lang="apptitle"></p>
+    </div>
+    <br>
+    <div class="row mx-0">
+        <div class="col">
+            <div class="card mb-3 border-0 bg-warning shadow-sm bg-template-light">
+                <div class="card-body">
+                    <a href="/postad" style="text-decoration: none;">
+                    	<div class="row">
+                        	<div class="col vertical-center">
+                            	<p class="text-white small mb-0" style="font-size: 1rem;" lang="postad"></p>
+                        	</div>
+                        	<div class="col-auto">
+                            	<button class="btn btn-default button-rounded-36 shadow"><i class="material-icons">add</i></button>
+                        	</div>
+                    	</div>
+                    </a>
+                </div>
+            </div>
+            <h5 class="subtitle text-uppercase"><span lang="menu"></span></h5>
+            <div class="list-group main-menu">
+                <a href="/main" class="list-group-item list-group-item-action" lang="ads"></a>
+                <a href="/news" class="list-group-item list-group-item-action" lang="news"></a>
+                <a href="/bookmarks" class="list-group-item list-group-item-action" lang="bookmarks"></a>
+                <a href="/aboutus" class="list-group-item list-group-item-action" lang="aboutus"></a>
+                <a href="/settings" class="list-group-item list-group-item-action active" lang="settings"></a>
+                <a href="/aboutapp" class="list-group-item list-group-item-action" lang="aboutapp"></a>
+                <p class="text-center small text-white mt-4" lang="copyright"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="header">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <button class="btn  btn-link text-dark menu-btn"><img src="vendor/img/menu.png" alt=""><span class="new-notification"></span></button>
+            </div>
+            <div class="col text-center"><h5 class="text-dark" lang="settings" style="line-height: 54px;margin-bottom: unset;"></h5></div>
+            <div class="col-auto">
+              	<button class="btn text-dark" data-toggle="modal" data-target="#about_app"><i class="icon-info"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">            
+        <div class="row mt-3">
+            <div class="col-12 px-0">
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="list-group-item">
+                        <div data-toggle="modal" data-target="#language_modal" class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_language"></h6>
+                            </div>                                
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <i class="material-icons text-secondary">chevron_right</i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_list_item"></h6>
+                            </div> 
+                            <div class="col-4 pl-0 align-self-center text-right">
+                                <i class="material-icons text-secondary" settings="list_item" settings-val="grid">view_module</i>
+                                <i class="material-icons text-warning" settings="list_item" settings-val="list">view_list</i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_notifications"></h6>
+                            </div>
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" settings="notification" id="notification_switch" checked>
+                                    <label class="custom-control-label" for="notification_switch"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_vibration"></h6>
+                            </div>
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" settings="vibration" id="vibro_switch" checked>
+                                    <label class="custom-control-label" for="vibro_switch"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_audio"></h6>
+                            </div>
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" settings="audio" id="audio_switch" checked>
+                                    <label class="custom-control-label" for="audio_switch"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_nightmode"></h6>
+                            </div>
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" settings="nightmode" id="nightmode_switch" checked>
+                                    <label class="custom-control-label" for="nightmode_switch"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_trafic"></h6>
+                            </div>
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" settings="trafic" id="trafic_switch" checked>
+                                    <label class="custom-control-label" for="trafic_switch"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div data-toggle="modal" data-target="#user_info_modal" class="row">
+                            <div class="col">
+                                <h6 class="text-dark small mb-1" lang="settings_user_info"></h6>
+                            </div>                                
+                            <div class="col-2 pl-0 align-self-center text-right">
+                                <i class="material-icons text-secondary">chevron_right</i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="no-gutters">
+            <div class="col-auto mx-auto">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-auto">
+                        <a href="/main" class="btn btn-link-default">
+                            <i class="material-icons">store_mall_directory</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/news" class="btn btn-link-default">
+                            <i class="icon-grid"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/postad" class="btn btn-default shadow centerbutton">
+                            <i class="icon-note"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/bookmarks" class="btn btn-link-default">
+                            <i class="material-icons md-18">favorite_outline</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/settings" class="btn btn-link-default active">
+                            <i class="icon-settings icons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="language_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0 small text-center" lang="select_custom_language"></h5>
+                </div>
+                <div class="modal-body pr-4 pl-4 mt-4">
+                    <div class="text-center" data-tmpl="language-list">
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="user_info_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0" lang="settings_user_info"></h5>
+                </div>
+                <div class="modal-body text-center pr-4 pl-4">
+                    <form autocomplete="off">
+                
+                        <div class="form-group float-label active">
+                            <input type="text" id="fullname" name="fullname" class="form-control" placeholder="" />
+                            <label for="fullname" class="form-control-label"><lang lang="fullname"></lang>(*)</label>
+                        </div>
+
+                        <div class="form-group float-label active">
+                            <input type="text" id="address" name="address" class="form-control" placeholder="" />
+                            <label for="address" class="form-control-label"><lang lang="address"></lang>(*)</label>
+                        </div>
+
+                        <div class="form-group float-label active">
+                            <input type="tel" id="phonenumber" name="phonenumber" class="form-control" placeholder="" />
+                            <label for="phonenumber" class="form-control-label"><lang lang="phonenumber"></lang>(*)</label>
+                        </div>
+
+                        <div class="form-group float-label active">
+                            <input type="text" id="emailortelegram" name="emailortelegram" class="form-control" placeholder="" />
+                            <label for="emailortelegram" class="form-control-label" lang="emailortelegram"></label>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn btn-lg btn-secondary btn-block btn-rounded shadow" type="submit"><span lang="settings_save"></span></button>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="contactinfo_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0" lang="contactinfo"></h5>
+                </div>
+                <div class="modal-body pr-4 pl-4">
+                    <div class="text-center">
+                        <p class="text-secondary small number"></p>
+                        <p class="text-secondary small email"></p>
+                        <p class="text-secondary small telegram"></p>
+                        <p class="text-secondary small address"></p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>

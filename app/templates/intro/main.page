@@ -1,0 +1,60 @@
+<a href="/intro/fields" style="border: 0.5px solid #fff;" class="btn btn-default button-rounded-54 shadow text-white float-bottom-right pointer"><i class="material-icons">arrow_forward</i></a>
+    <!-- Swiper -->
+    <div class="swiper-container introduction vh-100">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide overflow-hidden bg-orange text-white">
+                <div class="row no-gutters h-100" style="">
+                    <img src="vendor/img/intro-1.png" alt="" class="pinapple right-image align-self-center" style="margin-right: 0px;">
+                    <div class="col align-self-center px-3 white-mode">
+                        <div class="row white-mode">
+                            <div class="container white-mode">
+                                <div class="row white-mode">
+                                    <div class="col-6 text-left white-mode">
+                                        <h1 class="text-uppercase white-mode" lang="introduction_first_heading"></h1>
+                                        <p lang="introduction_first_paragraph" class="white-mode"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide overflow-hidden bg-success text-white">
+                <div class="row no-gutters h-100">
+                    <img src="vendor/img/intor-2.png" alt="" class="pinapple right-image align-self-center" style="margin-right: 0px;">
+                    <div class="col align-self-center px-3 white-mode">
+                        <div class="row white-mode">
+                            <div class="container white-mode">
+                                <div class="row white-mode">
+                                    <div class="col-6 text-left white-mode">
+                                        <h1 class="text-uppercase white-mode" lang="introduction_second_heading"></h1>
+                                        <p lang="introduction_second_paragraph" class="white-mode"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide overflow-hidden bg-warning text-white">
+                <div class="row no-gutters h-100">
+                    <img src="vendor/img/intro-3.png" alt="" class="banana right-image align-self-center">
+                    <div class="col align-self-center px-3 white-mode">
+                        <div class="row white-mode">
+                            <div class="container white-mode">
+                                <div class="row white-mode">
+                                    <div class="col-6 text-left white-mode">
+                                        <h1 class="text-uppercase white-mode" lang="introduction_third_heading"></h1>
+                                        <p lang="introduction_third_paragraph" class="white-mode"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination white-mode"></div>
+    </div>

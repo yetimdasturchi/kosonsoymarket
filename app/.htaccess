@@ -1,0 +1,5 @@
+AddDefaultCharset utf8
+# dnwr_ip   192.168.43.51
+# dnwr_host apptemplate.kosonsoymarket.uz
+RewriteEngine On
+RewriteRule ^api/(.*)$ api.php?method=$1 [L,QSA]

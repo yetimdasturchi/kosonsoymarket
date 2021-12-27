@@ -1,0 +1,35 @@
+*:not([style*='background:url']):not([style*='background: url']):not([style*='background-image']):not(.modal):not(.modal-dialog):not(input):not(textarea):not(.white-mode){
+            color: #ffffff !important;
+            background-color: #303030 !important;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.65) !important;
+        }
+        :link, :link * {color: #FF9800 !important}
+        :visited, :visited * {color: #FF9800 !important}
+
+        ::selection {
+            color: #303030 !important;
+            background: #fff !important;
+        }
+        .custom-switch .custom-control-input:checked~.custom-control-label::after{
+            background-color: #ffffff;
+        }
+        .pink-theme .custom-control-input:checked ~ .custom-control-label::before{
+            border-color: #ffffff;
+            background-color: #303030;
+        }
+        .wrapper{
+            background-image: unset!important;
+        }
+        .modal input, .modal input:focus, .profile-info input, .profile-info input:focus{
+            background-color: transparent!important;
+            color: #b8b8b8;
+        }
+        .loader-content svg{
+            stroke: #fff!important;
+        }
+        .loader-screen .col, .loader-screen .col img, .loader-screen .col h1, .loader-screen .col .laoderhorizontal{
+            background: transparent!important;
+        }
+        .loader-screen .col .laoderhorizontal div{
+            background: #ffffff!important;
+        }

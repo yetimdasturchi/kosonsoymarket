@@ -1,0 +1,62 @@
+<div class="fsp-wrapper">
+     <div class="fsp-wrapper-content">
+        <div class="fsp-header active">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <button back=".fsp-wrapper" class="btn  btn-link text-dark"><i class="material-icons">navigate_before</i></button>
+                </div>
+                <div class="col text-center"><h6 class="text-dark ">_category_</h6></div>
+                <div class="col-auto">
+                    <button class="btn btn-sm p-0" bookmark="_id_"><i class="material-icons md-18">_bookmark_</i></button>
+                    <button class="btn text-dark share-item" share-type="ads" share-title="_title_" share-id="_id_" share-unique="_uniquekey_"><i class="icon-share"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="fsp-container">
+
+            <!-- Swiper -->
+            <div class="swiper-container product-details">
+                <div class="swiper-wrapper">
+                    _image_
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="text-center">
+                <a class="text-white text-center ml-2">&nbsp;</a>
+                <div class="badge badge-warning text-white float-left mt-1"><i class="icon-eye"></i> _visits_</div>
+                <div class="badge badge-template text-white float-right mt-1">_date_</div>
+            </div>
+            <p class="text-secondary my-3 ">
+                _price_
+            </p>
+            <a class="text-dark mb-1 mt-2 h6 d-block">_title_</a>
+            <p class="text-secondary small mb-2">_address_</p>
+            <hr />
+            <div class="row bg-white py-3">
+                _filter_
+            </div>
+            <div class="text-secondary item-content">_content_</div>
+        </div>
+        <div class="footer">
+            <div class="no-gutters">
+                <div class="col-auto mx-auto">
+                    <div class="row no-gutters ">
+                        <div class="col-10">
+                            <a class="btn btn-link-default active float-left" style="text-transform: unset;width: 100%;text-align: unset;padding-left: 10px;">
+                                _onwer_
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="tel:_phone_" class="btn btn-default shadow float-right" style="border-radius: 0px;">
+                                <i class="icon-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

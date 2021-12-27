@@ -1,0 +1,187 @@
+
+<!doctype html>
+<html lang="en" class="pink-theme">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="Manuchehr Usmonov">
+
+    <title>KMarket</title>
+
+    <link rel="icon" type="image/png" href="vendor/img/favicon.png">
+    
+    <link rel="stylesheet" href="vendor/css/material-icons.css">
+    <link rel="stylesheet" href="vendor/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/css/flaticon.css">
+    <link rel="stylesheet" href="vendor/css/placeholder-loading.min.css">
+    <link rel="stylesheet" href="vendor/css/animate.min.css">
+    <link rel="stylesheet" href="vendor/css/dropify.min.css">
+
+    <link href="vendor/css/roboto.css" rel="stylesheet">
+
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/css/swiper.min.css" rel="stylesheet">
+
+    <link href="vendor/css/nouislider.min.css" rel="stylesheet">
+
+    <link href="vendor/css/chosen.min.css" rel="stylesheet">
+
+    <link href="vendor/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row no-gutters vh-100 loader-screen">
+        <div class="col align-self-center text-white text-center white-mode">
+            <img src="vendor/img/logo.png" class="white-mode">
+            <h1 class="white-mode"><span class="font-weight-light"></span>KMarket</h1>
+            <div class="laoderhorizontal white-mode">
+                <div class="white-mode"></div>
+                <div class="white-mode"></div>
+                <div class="white-mode"></div>
+                <div class="white-mode"></div>
+            </div>
+        </div>
+    </div>
+    <div id="root">
+    </div>
+
+    <script src="vendor/js/jquery-3.3.1.min.js"></script>
+    <script src="vendor/js/popper.min.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/fast.js"></script>
+    <script src="vendor/js/pulltorefresh.js"></script>
+    <script src="engine/tmpl.js"></script>
+    <script src="engine/languages.js"></script>
+    <script src="vendor/js/swiper.min.js"></script>
+    <script src="vendor/js/nouislider.min.js"></script>
+    <script src="vendor/js/chosen.jquery.min.js"></script>
+    <script src="vendor/js/dropify.min.js"></script>
+    
+    <script src="vendor/js/main.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        if (localStorage.getItem('nightmode')=='enabled') {
+            $('head').append('<link href="vendor/css/darkmode.css" rel="stylesheet" />');
+            $('.wrapper .header img').attr('src', 'vendor/img/menu-white.png'); 
+        }else{
+            $('link[href="vendor/css/darkmode.css"]').remove();
+            $('.wrapper .header img').attr('src', 'vendor/img/menu.png'); 
+        }
+    </script>
+
+    <div class="modal fade" id="share" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-end" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <h6 class="subtitle mt-0" lang="share_with"></h6>
+                    <div class="row">
+                        <div class="col-12">
+                            <figure class="avatar avatar-50 border-0 mx-1 facebook" url="">
+                                <img src="vendor/img/facebook.png" alt="">
+                            </figure>
+                            <figure class="avatar avatar-50 border-0 mx-1 whatsapp" url="">
+                                <img src="vendor/img/whatsapp.png" alt="">
+                            </figure>
+                            <figure class="avatar avatar-50 border-0 mx-1 twitter" url="">
+                                <img src="vendor/img/twitter.png" alt="">
+                            </figure>
+                            <figure class="avatar avatar-50 border-0 mx-1 telegram" url="">
+                                <img src="vendor/img/telegram.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <p class="subtitle text-secondary" lang="link"></p>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3 copy-url">
+                                <input type="text" class="form-control" readonly="" value="">
+                                <div class="input-group-append">
+                                    <span class="input-group-text copy bg-template text-white"><i class="icon-link"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="about_app" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header text-center">
+                    <h5 class="header-title mb-0" lang="aboutapp"></h5>
+                </div>
+                <div class="modal-body pr-4 pl-4">
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_version"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_version_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_lisension"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_lisension_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_release"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_release_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_author"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_author_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_developer"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_developer_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_website"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_website_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-dark mb-1 small" lang="aboutapp_contact"></h6>
+                                    <p class="text-secondary mb-0 small" lang="aboutapp_contact_value"></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

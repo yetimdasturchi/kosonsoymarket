@@ -1,0 +1,194 @@
+<div class="sidebar">
+    <div class="text-center">
+    	<div class="figure-menu shadow">
+    		<figure><img src="vendor/img/logo.png" alt=""></figure>
+    	</div>
+    	<h5 class="mb-1 ">Kosonsoy Market</h5>
+    	<p class="text-mute small" lang="apptitle"></p>
+    </div>
+    <br>
+    <div class="row mx-0">
+        <div class="col">
+            <div class="card mb-3 border-0 bg-warning shadow-sm bg-template-light">
+                <div class="card-body">
+                    <a href="/postad" style="text-decoration: none;">
+                    	<div class="row">
+                        	<div class="col vertical-center">
+                            	<p class="text-white small mb-0" style="font-size: 1rem;" lang="postad"></p>
+                        	</div>
+                        	<div class="col-auto">
+                            	<button class="btn btn-default button-rounded-36 shadow"><i class="material-icons">add</i></button>
+                        	</div>
+                    	</div>
+                    </a>
+                </div>
+            </div>
+            <h5 class="subtitle text-uppercase"><span lang="menu"></span></h5>
+            <div class="list-group main-menu">
+                <a href="/main" class="list-group-item list-group-item-action" lang="ads"></a>
+                <a href="/news" class="list-group-item list-group-item-action" lang="news"></a>
+                <a href="/bookmarks" class="list-group-item list-group-item-action" lang="bookmarks"></a>
+                <a href="/aboutus" class="list-group-item list-group-item-action" lang="aboutus"></a>
+                <a href="/settings" class="list-group-item list-group-item-action" lang="settings"></a>
+                <a href="/aboutapp" class="list-group-item list-group-item-action" lang="aboutapp"></a>
+                <p class="text-center small text-white mt-4" lang="copyright"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="header">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <button class="btn  btn-link text-dark menu-btn"><img src="vendor/img/menu.png" alt=""><span class="new-notification"></span></button>
+            </div>
+            <div class="col text-center"><h5 class="text-dark" lang="postad_small" style="line-height: 54px;margin-bottom: unset;"></h5></div>
+            <div class="col-auto">
+              	<button class="btn text-dark" data-toggle="modal" data-target="#reglament"><i class="icon-info"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">   
+        <form autocomplete="off" id="postad" enctype="multipart/form-data" method="post">
+            <div class="row mt-3 mb-3">
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <input type="text" name="title" class="form-control">
+                        <label class="form-control-label"><lang lang="postad_title"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <select class="form-control" name="category">
+                            <option value="null" lang="filter_select"></option>
+                        </select>
+                        <label class="form-control-label"><lang lang="postad_category"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row filters-data"></div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="form-group float-label active">
+                        <input type="number" name="price" class="form-control" min="0">
+                        <label class="form-control-label"><lang lang="postad_price"></lang></label>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="form-group float-label active">
+                        <select class="form-control" name="currency">
+                            <option value="null" lang="filter_select"></option>
+                            <option value="sum">s</option>
+                            <option value="usd">$</option>
+                        </select>
+                        <label class="form-control-label"><lang lang="postad_currency"></lang></label>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="form-group float-label active">
+                        <select class="form-control" name="covenant">
+                            <option value="null" lang="filter_select"></option>
+                            <option value="0" lang="postad_covenant_0"></option>
+                            <option value="1" lang="postad_covenant_1"></option>
+                        </select>
+                        <label class="form-control-label"><lang lang="postad_covenant"></lang></label>
+                    </div>
+                </div>
+                <div class="col-12 form-group">
+                    <label for="content"><lang lang="postad_content"></lang></label>
+                    <textarea class="form-control" name="content" id="content" rows="3"></textarea>
+                </div>
+                <div class="col-12 form-group">
+                    <input type="file" class="dropify" multiple="" accept="image/*" data-show-remove="false" data-show-errors="false" data-allowed-file-extensions="png jpg jpeg" data-max-file-size="5M" name="files[]">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <input type="text" name="onwer_name" class="form-control">
+                        <label class="form-control-label"><lang lang="fullname"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <input type="text" name="onwer_address" class="form-control">
+                        <label class="form-control-label"><lang lang="address"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <input type="text" name="onwer_phone" class="form-control">
+                        <label class="form-control-label"><lang lang="phonenumber"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group float-label active">
+                        <input type="text" name="onwer_email" class="form-control">
+                        <label class="form-control-label"><lang lang="emailortelegram"></lang></label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group float-label active">
+                        <select class="form-control" name="service_type">
+                            <option value="null" lang="filter_select"></option>
+                        </select>
+                        <label class="form-control-label"><lang lang="postad_pricing"></lang>(*)</label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-warning btn-rounded btn-block col" lang="send"></button>
+                </div>
+            </div>
+        </form>        
+    </div>
+    <div class="footer">
+        <div class="no-gutters">
+            <div class="col-auto mx-auto">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-auto">
+                        <a href="/main" class="btn btn-link-default">
+                            <i class="material-icons">store_mall_directory</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/news" class="btn btn-link-default">
+                            <i class="icon-grid"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/postad" class="btn btn-default shadow centerbutton active">
+                            <i class="icon-note"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/bookmarks" class="btn btn-link-default">
+                            <i class="material-icons md-18">favorite_outline</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/settings" class="btn btn-link-default">
+                            <i class="icon-settings icons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="reglament" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0" lang="rules"></h5>
+                </div>
+                <div class="modal-body pr-4 pl-4">
+                    <div class="">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-secondary btn-rounded btn-block" data-dismiss="modal" lang="close"></button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>

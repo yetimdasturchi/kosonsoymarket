@@ -1,0 +1,15 @@
+<div class="post-item swiper-slide col-6 col-md-4 col-lg-3 col-xl-2">
+    <div class="card shadow-sm border-0 mb-4 grid">
+        <figure class="product-image grid-image ph-item ph-picture" style="border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;">
+        </figure>
+        <div class="card-body ph-item ph-row" style="">
+        	<div class="ph-col-12 empty"></div>
+        	<div class="ph-col-12" style="margin-top: -8px;"></div>
+        	<div class="ph-col-8" style="margin-top: 8px;"></div>
+        	<div class="ph-col-4 empty"></div>
+        	<div class="ph-col-4 small" style="margin-top: 30px;margin-bottom: -7px;"></div>
+           <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item" style="bottom: 7px;"></button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+# dnwr_ip   192.168.43.51
+# dnwr_host kosonsoymarket.uz
+RewriteEngine on
+RewriteCond $1 !^(index\.php|public|uploads|robots\.txt)
+RewriteRule ^(.*)$ /index.php?/$1 [L]

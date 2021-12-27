@@ -1,0 +1,19 @@
+<div class="post-item col-12 col-lg-6">
+                    <div class="card shadow-sm border-0 mb-4 list-tem">
+                        <div class="card-body"><span class="badge  d-inline-block ml-2"></span><figure class="product-image ph-item ph-picture" style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;"></figure>
+                            <div class="row">
+                                
+                                <div class="col ph-item ph-row" style="border-radius: 20px;">
+                                    <div class="ph-col-12 empty"></div>
+                                    <div class="ph-col-10" style="margin-top: -10px;"></div>
+                                    <div class="ph-col-2 empty"></div>
+                                    <div class="ph-col-6 mb-2" style="margin-top: -5px;"></div>
+                                    <div class="ph-col-6 empty"></div>
+                                    
+                                    <div class="ph-col-4 small mb-0" style="margin-top: 30px;margin-bottom: -7px;"></div>
+                                </div>
+                            </div>
+                            <button class="btn btn-default button-rounded-36 shadow-sm float-bottom-right ph-item"></button>
+                        </div>
+                    </div>
+                </div>

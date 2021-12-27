@@ -1,0 +1,20 @@
+﻿#sotiladi {tags}
+📺 Reklama Center
+
+🏡 {title}
+💰 Narxi: {price}
+🙍‍♂️ Foydalanuvchi: {onwer_name}
+☎️ Tel:   {onwer_phone}
+✉️ Pochta:   {onwer_email}
+
+{filters=✏️}
+
+🙍‍♂️ Manzil: {address}
+📎 E'lon raqami: {id}
+⏰ Joylandi: {date}
+📌 Bo'lim: {category}
+          
+🛒 Batafsil: {url}
+
+⭐️ @KosonsoyMarketUz kanali 《Reklama center》xizmatidan foydalaning va ishingizni oson bitiring. 😉
+💡 Saytimiz: {site_host} (site_url})

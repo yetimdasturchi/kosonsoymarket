@@ -1,0 +1,299 @@
+<div class="sidebar">
+    <div class="text-center">
+    	<div class="figure-menu shadow">
+    		<figure><img src="vendor/img/logo.png" alt=""></figure>
+    	</div>
+    	<h5 class="mb-1 ">Kosonsoy Market</h5>
+    	<p class="text-mute small" lang="apptitle"></p>
+    </div>
+    <br>
+    <div class="row mx-0">
+        <div class="col">
+            <div class="card mb-3 border-0 bg-warning shadow-sm bg-template-light">
+                <div class="card-body">
+                    <a href="/postad" style="text-decoration: none;">
+                    	<div class="row">
+                        	<div class="col vertical-center">
+                            	<p class="text-white small mb-0" style="font-size: 1rem;" lang="postad"></p>
+                        	</div>
+                        	<div class="col-auto">
+                            	<button class="btn btn-default button-rounded-36 shadow"><i class="material-icons">add</i></button>
+                        	</div>
+                    	</div>
+                    </a>
+                </div>
+            </div>
+            <h5 class="subtitle text-uppercase"><span lang="menu"></span></h5>
+            <div class="list-group main-menu">
+                <a href="/main" class="list-group-item list-group-item-action" lang="ads"></a>
+                <a href="/news" class="list-group-item list-group-item-action" lang="news"></a>
+                <a href="/bookmarks" class="list-group-item list-group-item-action" lang="bookmarks"></a>
+                <a href="/aboutus" class="list-group-item list-group-item-action active" lang="aboutus"></a>
+                <a href="/settings" class="list-group-item list-group-item-action" lang="settings"></a>
+                <a href="/aboutapp" class="list-group-item list-group-item-action" lang="aboutapp"></a>
+                <p class="text-center small text-white mt-4" lang="copyright"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper" style="background: #fff;">
+    <div class="header">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <button class="btn  btn-link text-dark menu-btn"><img src="vendor/img/menu.png" alt=""><span class="new-notification"></span></button>
+            </div>
+            <div class="col text-center"><h5 class="text-dark" lang="aboutus" style="line-height: 54px;margin-bottom: unset;"></h5></div>
+            <div class="col-auto">
+                <button class="btn text-dark" data-toggle="modal" data-target="#contactinfo_modal"><i class="icon-phone"></i></button>
+            </div>
+            <div class="col-auto">
+              	<button class="btn text-dark" data-toggle="modal" data-target="#contact_modal"><i class="icon-envelope-letter"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-content" style="display: none;">
+        <h6 class="subtitle text-center about-site-title"></h6>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about-us-content text-secondary small mb-2">
+                    <div class="heading-panel">
+                        <h3 class="main-title text-left">  </h3>
+                    </div>
+                    <h2></h2>
+                    <div class="text-justify about-site-text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <div class="about-page-featured-image">
+                    <img class="about-site-image" src="" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto align-self-center pr-1">
+                            </div>
+                            <div class="col pl-1">
+                                <p class="text-secondary mb-0 small" lang="allads">Umumiy e'lonlar</p>
+                                <h6 class="text-dark my-0 about-stats-allads">0+</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto align-self-center pr-1">
+                            </div>
+                            <div class="col pl-1">
+                                <p class="text-secondary mb-0 small" lang="activeads">Faol e'lonlar</p>
+                                <h6 class="text-dark my-0 about-stats-activeads">0+</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto align-self-center pr-1">
+                            </div>
+                            <div class="col pl-1">
+                                <p class="text-secondary mb-0 small" lang="allusers">Foydalanuvchilar</p>
+                                <h6 class="text-dark my-0 about-stats-allusers">0+</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card mb-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto align-self-center pr-1">
+                            </div>
+                            <div class="col pl-1">
+                                <p class="text-secondary mb-0 small" lang="dailyusers">Kuzatuvchilar</p>
+                                <h6 class="text-dark my-0 about-stats-dailyusers">0+</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6 class="subtitle text-center" lang="paid_services"></h6>
+        <p class="text-secondary small mb-2 text-center" lang="paid_services_title"></p>
+        <hr>
+        <div class="row my-3 text-center about-pricing">
+        </div>
+        <h6 class="subtitle text-center about-advertisement-title">Reklama Xizmati</h6>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="about-page-featured-image">
+                    <img class="about-advertisement-image" src="http://kosonsoymarket.uz/public/images/project_at_adversitement.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="about-us-content text-secondary small mb-2">
+                    <div class="heading-panel">
+                        <h3 class="main-title text-left">  </h3>
+                    </div>
+                    <h2></h2>
+                    <div class="text-justify about-advertisement-text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6 class="subtitle text-center" lang="partners"></h6>
+        <div class="row mt-3">
+            <div class="swiper-container news-slide" style="height: unset;">
+                <div class="swiper-wrapper about-partners">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+        <div class="row mt-3 loader-content" style="display: none;">
+            <div class="col-12 text-center" style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width: 150px;height: 150px;">
+                <svg width="140" height="140" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#333">
+                    <g fill="none" fill-rule="evenodd" stroke-width="1">
+                        <circle cx="22" cy="22" r="1">
+                            <animate attributeName="r"
+                                begin="0s" dur="1.8s"
+                                values="1; 20"
+                                calcMode="spline"
+                                keyTimes="0; 1"
+                                keySplines="0.165, 0.84, 0.44, 1"
+                                repeatCount="indefinite" />
+                            <animate attributeName="stroke-opacity"
+                                begin="0s" dur="1.8s"
+                                values="1; 0"
+                                calcMode="spline"
+                                keyTimes="0; 1"
+                                keySplines="0.3, 0.61, 0.355, 1"
+                                repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="22" cy="22" r="1">
+                            <animate attributeName="r"
+                                begin="-0.9s" dur="1.8s"
+                                values="1; 20"
+                                calcMode="spline"
+                                keyTimes="0; 1"
+                                keySplines="0.165, 0.84, 0.44, 1"
+                                repeatCount="indefinite" />
+                            <animate attributeName="stroke-opacity"
+                                begin="-0.9s" dur="1.8s"
+                                values="1; 0"
+                                calcMode="spline"
+                                keyTimes="0; 1"
+                                keySplines="0.3, 0.61, 0.355, 1"
+                                repeatCount="indefinite" />
+                        </circle>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="row mt-3 error-content" style="display: none;">
+            <div class="col-12 text-center">
+                <div class="btn btn-warning mb-3" style="border-radius: 15px;">
+                    <i class="icon-exclamation icons"></i>
+                    <h6 class="d-inline-block text-left mx-0 mb-0 text-normal" lang="error"></h6>
+                    <br><small class="text-mute" lang="notfound"></small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="no-gutters">
+            <div class="col-auto mx-auto">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-auto">
+                        <a href="/main" class="btn btn-link-default">
+                            <i class="material-icons">store_mall_directory</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/news" class="btn btn-link-default">
+                            <i class="icon-grid"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/postad" class="btn btn-default shadow centerbutton">
+                            <i class="icon-note"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/bookmarks" class="btn btn-link-default">
+                            <i class="material-icons md-18">favorite_outline</i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/settings" class="btn btn-link-default">
+                            <i class="icon-settings icons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0" lang="contact"></h5>
+                </div>
+                <div class="modal-body text-center pr-4 pl-4">
+                    <form id="contact_form" autocomplete="off">
+                        <div class="form-group text-left float-label">
+                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="" />
+                            <label for="contact_name" class="form-control-label" lang="fullname"></label>
+                        </div>
+                        <div class="form-group text-left float-label">
+                            <input type="tel" id="contact_phone" name="contact_phone" class="form-control" placeholder="" />
+                            <label for="contact_phone" class="form-control-label" lang="phonenumber"></label>
+                        </div>
+                        <div class="form-group text-left float-label">
+                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="" />
+                            <label for="contact_subject" class="form-control-label" lang="subject"></label>
+                        </div>
+                        <div class="form-group text-left float-label">
+                            <textarea id="contact_message" name="contact_message" class="form-control form-control-lg" rows="2"></textarea>
+                            <label for="contact_message" class="form-control-label" lang="message"></label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-warning btn-rounded btn-block col" lang="send"></button>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="contactinfo_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="header-title mb-0" lang="contactinfo"></h5>
+                </div>
+                <div class="modal-body pr-4 pl-4">
+                    <div class="text-center">
+                        <p class="text-secondary small number"></p>
+                        <p class="text-secondary small email"></p>
+                        <p class="text-secondary small telegram"></p>
+                        <p class="text-secondary small address"></p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>

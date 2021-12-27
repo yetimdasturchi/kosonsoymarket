@@ -1,0 +1,36 @@
+<div class="row no-gutters vh-100 proh bg-template">
+        <div class="col align-self-center px-3  text-center white-mode">
+            <h2 class="text-white white-mode"><img src="vendor/img/logo.png" alt="logo" class="logo-small" style="width: 50px;"> KMarket</h2>
+            <form class="form-signin shadow profile-info" autocomplete="off">
+                <p class="text-secondary small" lang="fieldssubtitle"></p>
+                
+                <div class="form-group float-label active">
+                    <input type="text" id="fullname" name="fullname" class="form-control" placeholder="" />
+                    <label for="fullname" class="form-control-label"><lang lang="fullname"></lang>(*)</label>
+                </div>
+
+                <div class="form-group float-label active">
+                    <input type="text" id="address" name="address" class="form-control" placeholder="" />
+                    <label for="address" class="form-control-label"><lang lang="address"></lang>(*)</label>
+                </div>
+
+                <div class="form-group float-label active">
+                    <input type="tel" id="phonenumber" name="phonenumber" class="form-control" placeholder="" />
+                    <label for="phonenumber" class="form-control-label"><lang lang="phonenumber"></lang>(*)</label>
+                </div>
+
+                <div class="form-group float-label active">
+                    <input type="text" id="emailortelegram" name="emailortelegram" class="form-control" placeholder="" />
+                    <label for="emailortelegram" class="form-control-label"><lang lang="emailortelegram"></lang></label>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <button class="btn btn-lg btn-warning btn-block btn-rounded shadow" type="submit"><span lang="continue"></span><i class="material-icons">arrow_forward</i></button>
+                    </div>
+                </div>
+            </form>
+            <p class="text-center text-white white-mode" lang="copyright">
+            </p>
+        </div>
+    </div>

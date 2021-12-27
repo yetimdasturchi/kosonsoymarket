@@ -1,0 +1,17 @@
+<div class="row no-gutters vh-100 proh bg-template">
+        <div class="col align-self-center px-3 white-mode text-center">
+            
+            <h2 class="text-white white-mode"><img src="vendor/img/logo.png" alt="logo" class="logo-small" style="width: 50px;"> KMarket</h2>
+            <div class="form-signin shadow">
+                <div class="form-group my-4 text-center">
+                    <div class="custom-control custom-checkbox" lang="select_custom_language">
+                    </div>
+                </div>
+                <div data-tmpl="language-list">
+                    
+                </div>
+            </div>
+            <p class="text-center text-white white-mode" lang="copyright">
+            </p>
+        </div>
+    </div>

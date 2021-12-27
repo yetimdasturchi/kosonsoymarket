@@ -1,0 +1,30 @@
+<div class="fsp-wrapper">
+     <div class="fsp-wrapper-content" style="padding-bottom: 10px;">
+        <div class="fsp-header active">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <button back=".fsp-wrapper" class="btn  btn-link text-dark"><i class="material-icons">navigate_before</i></button>
+                </div>
+                <div class="col text-center"><h6 class="text-dark ">_category_</h6></div>
+                <div class="col-auto">
+                    <button class="btn text-dark share-item" share-type="news" share-title="_title_" share-id="_id_" share-unique="_uniquekey_"><i class="icon-share"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="fsp-container">
+
+            <!-- Swiper -->
+            <div class="swiper-container product-details">
+                <div class="swiper-wrapper">
+                    _image_
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="text-dark mb-1 mt-2 h6 d-block">_title_</a>
+            <p class="text-secondary small mb-2">_date_</p>
+            <hr />
+            <div class="text-secondary item-content">_content_</div>
+        </div>
+    </div>
+</div>

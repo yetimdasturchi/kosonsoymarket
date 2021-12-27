@@ -1,0 +1,17 @@
+<div class="post-item col-12 col-lg-6" item="_id_">
+                    <div class="card shadow-sm bg-template-light border-0 mb-4 list-tem">
+                        <div class="card-body"><span class="badge badge-warning text-white d-inline-block ml-2"><small>_date_</small></span><figure class="product-image" style="background-image: url(_image_);" view-post="_id_"></figure>
+                            <div class="row">
+                                
+                                <div class="col">
+                                    <button class="btn btn-sm text-white btn-link p-0 float-right" bookmark="_id_"><i class="material-icons md-18">_bookmark_</i></button>
+                                    <p class="text-white mb-1 h6 d-block three-dot" view-post="_id_">_title_</p>
+                                    <p class="text-white small mb-2 three-dot" view-post="_id_">_category_</p>
+                                    <h5 class="text-white text-mute small font-weight-normal mb-1 three-dot" view-post="_id_">_address_</h5>
+                                    <p class="text-white small text-mute mb-0 three-dot" view-post="_id_">_price_</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-warning button-rounded-36 shadow-sm float-bottom-right"><i class="material-icons md-18" view-post="_id_">arrow_forward</i></button>
+                        </div>
+                    </div>
+                </div>
